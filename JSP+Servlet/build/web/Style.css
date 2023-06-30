@@ -1,0 +1,108 @@
+html,body{
+    background-color: #FFF5EE;
+    margin: 0;
+    padding: 0;
+}
+.saida{
+    padding-left: 652px;
+}
+.errovalor1{
+    color:red;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.errovalor2{
+    color:red;
+    font-family: Arial;
+
+    font-size: 50px;
+}
+
+.errodiv{
+    color:red;
+    font-family: Arial;
+    font-size: 50px;
+}
+
+.result{
+    color:green;
+    font-family: Arial;
+    font-size: 50px;
+}
+.entrada123{
+    font-family: Arial;
+    color:green;
+    border: 0px solid grey;
+    padding-left: 650px;
+    font-size: 40px;
+    padding-bottom: 365px;
+}
+.submit{
+    border: 0px solid #B0E0E6;
+    background: #B0E0E6;
+    margin-left: 230px;
+    align-content: center;
+    font-size: 40px;
+}
+
+.menu li{
+    font-family: Arial;
+    display:inline;
+    padding: 20px;
+
+}
+.menu{
+    font-size: 20px;
+    position:absolute;
+    top: 10px;
+    right: 100px;
+    
+
+}
+.cabecalho{
+    color:black;
+    font-family: Arial;
+    border: 10px solid #4169E1;
+    padding-left: 90px;
+    background-color: #4169E1;
+    position: relative;
+    display:flex;
+
+}
+.logo{
+    position:absolute;
+    left:20px;
+    top:15px;
+    width: 50px;
+    border: 0px solid grey;
+}
+.rodape{
+    
+    padding-left: 900px;
+    background-color: #4169E1;
+    font-family: Garamond, Arial;
+    font-size:20px;
+   
+}
+@media (max-width: 500px){
+    .menu li{
+        
+        padding-bottom: 0px;
+    }
+    
+}
+@media (max-width: 500px){
+    .cabecalho{
+        
+        padding-left: 40px;
+    }
+    
+}
+@media (max-width: 500px){
+    .entrada123{
+        
+        padding-left: 40px;
+    }
+    
+}
